@@ -1,0 +1,178 @@
+@import "./forms.css";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #ffffff;
+}
+
+h1 {
+    font-family: 'Raleway';
+    font-size: 80px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #212121;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+h2._left {
+    text-align: left;
+    color: #ffffff;
+}
+
+h2._left:after {
+    margin: 40px 0;
+}
+
+h2._center:after {
+    content: '';
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #ff8b38;
+    margin-bottom: 30px
+}
+
+h2:after {
+    content: '';
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+p {
+    font-size: 16px;
+    color: #86878b;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+input, textarea {
+    padding: 10px 12px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+textarea {
+    line-height: 1.4;
+    resize: none;
+}
+
+.head {
+    padding: 10px 0;
+    background-color: #000000;
+}
+
+
+.header {
+    padding: 50px;
+    background-color: #000000;
+}
+
+.header__logo {
+    font-size: 35px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo__color {
+    color: #ff8b38;
+}
+
+.header__menu {
+    text-align: right;
+    padding: 14px 0;
+}
+
+.header__nav {
+    margin: 0 20px;
+    color: #b0b0b0;
+}
+
+.header {
+    padding: 110px 0 140px 0;
+    background-size: cover;
+    background-position: 0 100%;
+    background-image: url("../images/header.png");
+}
+
+.header_text {
+    margin-bottom: 50px;
+}
+
+
+
+.contact__cell {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact_center {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cell {
+    padding: 0 20px;
+}
+
+.contact__field {
+    width: 100%;
+}
+
+.contact__fields {
+    margin-bottom: 43px;
+}
+
+.button {
+    padding: 7px 27px;
+    color: #ffffff;
+    transition: 0.5ms;
+}
+
+.button_empry {
+    background: transparent;
+    border: 2px solid #ffffff;
+}
+
+.button_full {
+    background: #ff8b38;
+    border: 2px solid #ff8b38;
+}
+
+.button_empry:hover,
+.button_full:hover {
+    border: 2px dotted #ffffff;
+    background: #48c763;
+}
+
+.button_field {
+    margin-bottom: 85px
+}
+
+.footer {
+    padding: 10px;
+    background-color: #000000;
+}
+
+._hidden {
+    display: none;
+}
+
+.footer__icon {
+    margin: 0 20px;
+    color: #ffffff;
+}

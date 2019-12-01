@@ -1,8 +1,9 @@
 @import "./forms.css";
 @import "./all.min.css";
+
 :root {
-    --primary-color:#ff8b38;
-    --base-color:#f5f5f5;
+    --primary-color: #ff8b38;
+    --base-color: #f5f5f5;
 }
 
 * {
@@ -12,6 +13,7 @@
     font-size: 14px;
     box-sizing: border-box;
 }
+
 body {
     color: #86878b;
 }
@@ -22,9 +24,9 @@ h2 {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
-    text-transform: uppercase;
     text-align: center;
 }
+
 h2:after {
     content: '';
     display: block;
@@ -48,6 +50,7 @@ h2._left {
 h2._left:after {
     margin: 0;
 }
+
 h2._white {
     color: #ffffff;
 }
@@ -111,11 +114,10 @@ button {
     height: 40px;
     max-width: 135px;
     background-color: var(--primary-color);
-    border-radius: 2px solid var(--primary-color);
+    border-radius: 3px solid var(--primary-color);
     color: #ffffff;
     font-size: 14px;
     font-weight: 500;
-    border-radius: 3px;
     cursor: pointer;
 }
 
@@ -137,6 +139,7 @@ button {
 ._base-bg {
     background-color: var(--base-color);
 }
+
 ._text-center {
     text-align: center;
 }
@@ -161,7 +164,6 @@ button {
 }
 
 
-
 .contact__row {
     margin-bottom: 45px;
 }
@@ -176,7 +178,29 @@ button {
 .contact__field {
     width: 100%;
 }
+.custom {
+    background: #000000;
+}
+.stylish {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #000000;
+    color: #86878b;
+}
+
+.footer__image {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.footer {
     text-align: center;
 }
